@@ -1,0 +1,13 @@
+@import 'variables';
+@import '~grommet/scss/grommet-core/index';
+@import 'custom.anchor';
+@import '~grommet/scss/hpe/_objects.button-hpe';
+
+.content-container {
+  min-height: 90vh;
+  padding-top: 75px;
+}
+
+grommetux-anchor:hover {
+  color: pink;
+}

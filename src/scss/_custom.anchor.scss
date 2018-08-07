@@ -1,0 +1,16 @@
+
+.#{$grommet-namespace}anchor--primary,
+.#{$grommet-namespace}anchor--icon-label,
+.#{$grommet-namespace}anchor--primary:visited,
+.#{$grommet-namespace}anchor--icon-label:visited {
+  // @include link-color-check($link-color, $brand-color);
+  color: $brand-color;
+
+  @include background-context-color($brand-color, $brand-color);
+  @include background-context-icon($brand-color, $brand-color);
+}
+
+.#{$grommet-namespace}anchor:hover,
+.#{$grommet-namespace}anchor--icon-label:hover {
+  color: $brand-color;
+}
