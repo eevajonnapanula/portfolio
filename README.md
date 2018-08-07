@@ -1,14 +1,3 @@
-# gatsby-starter-grommet
-Gatsby starter configured to use the [Grommet design system](https://grommet.github.io/).
+# Portfolio
 
-Use this starter by running:
-
-```sh
-gatsby new my-grommet-site https://github.com/alampros/gatsby-starter-grommet
-```
-
-See the [Gatsby starters docs](https://www.gatsbyjs.org/docs/gatsby-starters/) for more info on starters.
-
-### Demo
-
-See the [live demo](https://alampros.github.io/gatsby-starter-grommet/)
+This is my personal portfolio using [GatsbyJS](https://www.gatsbyjs.org/), [React](https://reactjs.org/) and [Grommet](http://grommet.io/)-components.
