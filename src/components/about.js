@@ -1,5 +1,7 @@
 import React from 'react'
 import eevis from '../images/eevis.jpg'
+import Skills from './skills'
+import Places from './places'
 import Heading from 'grommet/components/Heading'
 import Section from 'grommet/components/Section'
 import Image from 'grommet/components/Image'
@@ -22,6 +24,9 @@ const About = () => (
         <Box><Heading tag="h3">Hello, my name is Eeva-Jonna</Heading></Box>
         <Box><Image src={eevis} alt="Eeva-Jonna Panula" size="small" /></Box>
       </Columns>
+      <Skills />
+      <Heading tag="h3">Places lived</Heading>
+      <Places />
     </Section>
   </Animate>
 )

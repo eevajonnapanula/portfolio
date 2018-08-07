@@ -26,9 +26,7 @@ class Projects extends React.Component {
   }
 
   render() {
-    console.log(this.props.projects)
     const projects = this.getProjects()
-    console.log('projects', projects)
     return (
       <Animate
         enter={{"animation": "slide-right", "duration": 2000, "delay": 300}}
@@ -51,7 +49,7 @@ class Projects extends React.Component {
             masonry={false}
             justify='center'>
             {projects.map(project => (
-              <ProjectCard project={project} />
+              <ProjectCard project={project} key={project.node.frontmatter.title} />
             ))}
           </Columns>
         </Section>

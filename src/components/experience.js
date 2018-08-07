@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Work from './work'
 import Education from './education'
-import Skills from './skills'
 import Animate from 'grommet/components/Animate'
 
 const Experience = () => (
@@ -17,7 +16,6 @@ const Experience = () => (
     >
       <Work />
       <Education />
-      <Skills />
     </div>
   </Animate>
 )
