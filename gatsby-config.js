@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Eeva-Jonna\'s portfolio',
   },
-  pathPrefix: '/',
+  pathPrefix: '/portfolio',
   plugins: [
     {
       resolve: 'custom-sass-loader',

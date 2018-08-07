@@ -6,10 +6,9 @@
   "scripts": {
     "dev": "gatsby develop",
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "clean": "git clean -xfd .cache public/",
-    "serve": "yarn run clean && yarn run build && gatsby serve",
-    "deploy": "yarn run build -- --prefix-paths && gh-pages -d public",
+    "serve": "npm run clean && npm run build && gatsby serve",
     "format": "prettier --write 'src/**/*.js'"
   },
   "dependencies": {

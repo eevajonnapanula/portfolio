@@ -27,6 +27,7 @@ export const query = graphql`
             description
             filter
             tech
+            repo
           }
           excerpt
         }

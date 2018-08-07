@@ -1,6 +1,6 @@
 ---
 title: "eat.fi"
-description: "Project from hell."
+description: "Google for restaurants, as they say"
 filter: "work"
 tech: "Angular 4, Loopback, MariaDB"
 ---
