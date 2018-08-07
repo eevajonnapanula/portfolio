@@ -5,6 +5,10 @@ import Columns from 'grommet/components/Columns'
 import Animate from 'grommet/components/Animate'
 import Button from 'grommet/components/Button'
 import Box from 'grommet/components/Box'
+import PersonalComputerIcon from 'grommet/components/icons/base/PersonalComputer'
+import CodeIcon from 'grommet/components/icons/base/Code'
+import FavoriteIcon from 'grommet/components/icons/base/Favorite'
+
 
 class Projects extends React.Component {
   state = {
@@ -36,13 +40,19 @@ class Projects extends React.Component {
         <Section className="content-container" id="projects" pad="large">
           <Box direction="row" justify="center" pad={{between: 'small'}}>
             <Button
-            label='All'
-            onClick={() => this.setFilter('all')} />
+              icon={<CodeIcon />}
+              label='All'
+              primary={this.state.filter === 'all'}
+              onClick={() => this.setFilter('all')} />
             <Button
+              icon={<PersonalComputerIcon />}
               label='Work'
+              primary={this.state.filter === 'work'}
               onClick={() => this.setFilter('work')} />
             <Button
+              icon={<FavoriteIcon />}
               label='Hobby'
+              primary={this.state.filter === 'hobby'}
               onClick={() => this.setFilter('hobby')} />
           </Box>
           <Columns maxCount={4}

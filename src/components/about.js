@@ -8,6 +8,7 @@ import Image from 'grommet/components/Image'
 import Columns from 'grommet/components/Columns'
 import Box from 'grommet/components/Box'
 import Animate from 'grommet/components/Animate'
+import Paragraph from 'grommet/components/Paragraph'
 
 const About = () => (
   <Animate
@@ -15,18 +16,26 @@ const About = () => (
     keep={true}
     leave={{"animation": "fade", "duration": 0, "delay": 0}}
     visible="scroll">
-    <Section className="content-container" id="about" pad="large">
+    <Section className="content-container" id="about" pad="small">
       <Columns
         size='medium'
         maxCount={2}
         justify='center'
         pad={{between: "large"}}>
-        <Box><Heading tag="h3">Hello, my name is Eeva-Jonna</Heading></Box>
+        <Box>
+          <Heading tag="h3">Hello there</Heading>
+          <Paragraph>
+            I am a web developer, and I gotta say, I'm really proud of it.
+          </Paragraph>
+          <Paragraph>
+          </Paragraph>
+        </Box>
         <Box><Image src={eevis} alt="Eeva-Jonna Panula" size="small" /></Box>
       </Columns>
-      <Skills />
-      <Heading tag="h3">Places lived</Heading>
-      <Places />
+      <Box pad="large">
+        <Skills />
+        <Places />
+      </Box>
     </Section>
   </Animate>
 )
