@@ -6,7 +6,6 @@ import HeaderComponent from '../components/header'
 import Notification from 'grommet/components/Notification'
 // Styles and fonts
 import '../scss/main.scss'
-import '@fortawesome/fontawesome-free/css/all.css'
 
 const Layout = ({ children, data }) => (
   <div>

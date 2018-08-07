@@ -3,11 +3,10 @@
 @import 'custom.anchor';
 @import '~grommet/scss/hpe/_objects.button-hpe';
 
+body {
+  background-color: $background-color;
+}
 .content-container {
   min-height: 90vh;
   padding-top: 75px;
-}
-
-grommetux-anchor:hover {
-  color: pink;
 }

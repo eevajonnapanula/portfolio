@@ -9,11 +9,11 @@ const ProjectCard = (project) => (
     enter={{"animation": "slide-up", "duration": 300, "delay": 300}}
     leave={{"animation": "slide-up", "duration": 300, "delay": 300}}
     >
-    <Box pad="medium">
-      <Box colorIndex="grey-1-a" pad="small">
+    <Box margin="medium" style={{ borderRadius: '20px' }}>
+      <Box colorIndex="neutral-1" pad="small">
         <Heading tag="h3">{project.project.node.frontmatter.title}</Heading>
       </Box>
-      <Box colorIndex="neutral-1" pad="small">
+      <Box colorIndex="neutral-2" pad="small">
         <Paragraph>{project.project.node.excerpt}</Paragraph>
         <Heading tag="h3">Technologies</Heading>
         <Paragraph>{project.project.node.frontmatter.tech}</Paragraph>

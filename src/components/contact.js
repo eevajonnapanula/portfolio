@@ -4,6 +4,10 @@ import Section from 'grommet/components/Section'
 import Box from 'grommet/components/Box'
 import Anchor from 'grommet/components/Anchor'
 import Animate from 'grommet/components/Animate'
+import SocialLinkedinIcon from 'grommet/components/icons/base/SocialLinkedin'
+import SocialGithubIcon from 'grommet/components/icons/base/SocialGithub'
+import MailIcon from 'grommet/components/icons/base/Mail';
+
 
 const Contact = () => (
   <Animate
@@ -15,13 +19,13 @@ const Contact = () => (
       <Heading tag="h3">Contact me</Heading>
       <Box direction="row" justify="between" pad={{between: 'large'}}>
         <Anchor href="https://github.com/eevajonnapanula">
-          <i className="fab fa-github fa-3x p-5"></i>
+          <SocialGithubIcon colorIndex="brand" size="large" />
         </Anchor>
         <Anchor href="mailto:eevajonna.panula@gmail.com">
-          <i className="far fa-envelope fa-3x p-5"></i>
+          <MailIcon colorIndex="brand" size="large" />
         </Anchor>
         <Anchor href="https://www.linkedin.com/in/eevajonna/">
-          <i className="fab fa-linkedin fa-3x p-5"></i>
+          <SocialLinkedinIcon colorIndex="brand" size="large" />
         </Anchor>
       </Box>
     </Section>
