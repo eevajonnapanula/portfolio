@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import HeaderComponent from '../components/header'
+import Notification from 'grommet/components/Notification'
 // Styles and fonts
 import '../scss/main.scss'
 import '@fortawesome/fontawesome-free/css/all.css'
-
 
 const Layout = ({ children, data }) => (
   <div>
@@ -21,6 +21,11 @@ const Layout = ({ children, data }) => (
     <div>
       {children()}
     </div>
+    <Notification message='This site is still in development'
+      size='medium'
+      status='warning'
+      style={{position: 'fixed', bottom: 0, width: '100%'}}
+    />
   </div>
 )
 
