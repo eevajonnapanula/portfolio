@@ -13,7 +13,7 @@ const HeaderComponent = ({ siteTitle }) => (
       inline={true}
       direction='row'
       justify="center">
-      <Anchor href="#home">Home</Anchor>
+      <Anchor href="#landing">Home</Anchor>
       <Anchor href="#about">About</Anchor>
       <Anchor href="#experience">Résumé</Anchor>
       <Anchor href="#projects">Projects</Anchor>
