@@ -28,6 +28,7 @@ export const query = graphql`
             filter
             tech
             repo
+            role
           }
           excerpt
         }
