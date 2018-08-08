@@ -5,11 +5,12 @@ import Menu from 'grommet/components/Menu'
 import Anchor from 'grommet/components/Anchor'
 
 const HeaderComponent = ({ siteTitle }) => (
-  <Header fixed >
+  <Header fixed={true} style={{ position: 'fixed' }} >
     <Menu
       dropAlign={{left: 'left', top: 'bottom'}}
       fill
       responsive
+      colorIndex="light-1"
       inline={true}
       direction='row'
       justify="center">

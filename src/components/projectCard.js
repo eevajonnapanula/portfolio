@@ -14,7 +14,7 @@ const ProjectCard = (project) => (
         <Heading tag="h3">{project.project.node.frontmatter.title}</Heading>
       </Box>
       <Box colorIndex="grey-2" pad="small">
-        <Paragraph>{project.project.node.excerpt}</Paragraph>
+        <Paragraph>{project.project.node.frontmatter.description}</Paragraph>
         <Heading tag="h3">Technologies</Heading>
         <Paragraph>{project.project.node.frontmatter.tech}</Paragraph>
         {
