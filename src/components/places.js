@@ -31,7 +31,7 @@ export default class Places extends React.Component {
       {this.state.small ?
         <div>
         <WorldMap
-          colorIndex="brand"
+          colorIndex="light-2"
           series={[ {
             "place": [29.8168824,-95.6814839],
             "label": "Houston",
@@ -40,7 +40,7 @@ export default class Places extends React.Component {
             }]}
           zoom />
           <WorldMap
-            colorIndex="brand"
+            colorIndex="light-2"
             series={[{
               "place": [59.9390,29.5303],
               "label": "St. Petersburg",
@@ -61,7 +61,7 @@ export default class Places extends React.Component {
             zoom={true} />
             </div> :
             <WorldMap
-              colorIndex="brand"
+              colorIndex="light-2"
               series={[{
                 "place": [59.9390, 29.5303],
                 "label": "St. Petersburg",
