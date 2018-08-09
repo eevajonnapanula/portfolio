@@ -9,6 +9,11 @@ import Columns from 'grommet/components/Columns'
 import Box from 'grommet/components/Box'
 import Animate from 'grommet/components/Animate'
 import Paragraph from 'grommet/components/Paragraph'
+import Anchor from 'grommet/components/Anchor'
+import MailIcon from 'grommet/components/icons/base/Mail'
+import SocialLinkedinIcon from 'grommet/components/icons/base/SocialLinkedin'
+import SocialGithubIcon from 'grommet/components/icons/base/SocialGithub'
+
 
 const About = () => (
   <Animate
@@ -27,10 +32,21 @@ const About = () => (
           <Paragraph>
             I am a (web) developer, and I gotta say, I'm really proud of it. In the future, I hope to learn also more about things like mobile development and IoT.
           </Paragraph>
-          <Paragraph>
-          </Paragraph>
         </Box>
-        <Box><Image src={eevis} alt="Eeva-Jonna Panula" size="small" /></Box>
+        <Box direction="column" align="center" justify="center">
+          <Image src={eevis} alt="Eeva-Jonna Panula" size="small" />
+             <Box direction="row" justify="center" align="center">
+              <Anchor href="https://github.com/eevajonnapanula">
+                <SocialGithubIcon colorIndex="brand" size="small" />
+              </Anchor>
+              <Anchor href="mailto:eevajonna.panula@gmail.com">
+                <MailIcon colorIndex="brand" size="small" />
+              </Anchor>
+              <Anchor href="https://www.linkedin.com/in/eevajonna/">
+                <SocialLinkedinIcon colorIndex="brand" size="small" />
+              </Anchor>
+            </Box>
+        </Box>
       </Columns>
       <Box pad="large">
         <Skills />
