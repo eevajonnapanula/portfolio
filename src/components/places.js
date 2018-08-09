@@ -56,7 +56,12 @@ export default class Places extends React.Component {
               "label": "Helsinki",
               "colorIndex": "graph-3",
               "id": "helsinki"
-            }
+            },{
+              "place": [61.6316413,23.550121],
+              "label": "Tampere",
+              "colorIndex": "brand",
+              "id": "Tampere"
+            },
             ]}
             zoom={true} />
             </div> :

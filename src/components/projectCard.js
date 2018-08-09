@@ -10,18 +10,16 @@ const ProjectCard = ({project}) => (
     leave={{"animation": "slide-up", "duration": 300, "delay": 300}}
     >
     <Box margin="small">
-      <Box colorIndex="grey-1" align="center" pad="small">
+      <Box colorIndex="neutral-4-a" align="center" pad="small">
         <Heading tag="h3">{project.node.frontmatter.title}</Heading>
       </Box>
-      <Box colorIndex="grey-2" pad="small">
+      <Box colorIndex="light-2" pad="small">
         <Paragraph>{project.node.frontmatter.description}</Paragraph>
         <Paragraph><b>Role(s):</b> {project.node.frontmatter.role}</Paragraph>
         <Heading tag="h3">Technologies</Heading>
         <Paragraph>{project.node.frontmatter.tech}</Paragraph>
-        {
-        project.node.frontmatter.filter === 'hobby' &&
-          <Paragraph>{project.node.frontmatter.repo}</Paragraph>
-        }
+        {project.node.frontmatter.url &&
+          <Paragraph>Link to <a href={project.node.frontmatter.url}>{project.node.frontmatter.title}</a></Paragraph>}
       </Box>
     </Box>
   </Animate>
