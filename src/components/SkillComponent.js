@@ -7,11 +7,12 @@ import Value from 'grommet/components/Value'
 import Label from 'grommet/components/Label'
 
 const SkillComponent = ({ value, label }) => (
-  <Box>
+  <Box size="small">
     <Value value={value}
       units='%'
-      align='start' />
-    <Meter value={value} />
+      align='start'
+      size="small" />
+    <Meter value={value} size="small"/>
     <Box direction='row'
       justify='between'
       pad={{between: "small"}}

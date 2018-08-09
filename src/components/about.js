@@ -16,7 +16,7 @@ const About = () => (
     keep={true}
     leave={{"animation": "fade", "duration": 0, "delay": 0}}
     visible="scroll">
-    <Section className="content-container" id="about" pad="small">
+    <Section className="content-container" id="about" pad="medium">
       <Columns
         size='medium'
         maxCount={2}
@@ -25,7 +25,7 @@ const About = () => (
         <Box>
           <Heading tag="h3">Hello there</Heading>
           <Paragraph>
-            I am a (web) developer, and I gotta say, I'm really proud of it. In the future, I hope to learn also more about things like mobile development and IoT. 
+            I am a (web) developer, and I gotta say, I'm really proud of it. In the future, I hope to learn also more about things like mobile development and IoT.
           </Paragraph>
           <Paragraph>
           </Paragraph>

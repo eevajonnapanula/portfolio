@@ -8,12 +8,15 @@ import Columns from 'grommet/components/Columns'
 const skillsObject = [
   {value: 90, label: 'HTML'},
   {value: 90, label: 'CSS'},
+  {value: 70, label: 'Bootstrap'},
   {value: 60, label: 'React'},
+  {value: 50, label: 'Express'},
   {value: 40, label: 'Angular'},
-  {value: 50, label: 'NodJS'},
-  {value: 50, label: 'NoeJS'},
-  {value: 50, label: 'NodeJS'},
-
+  {value: 40, label: 'Loopback'},
+  {value: 40, label: 'Grommet'},
+  {value: 40, label: 'GatsbyJS'},
+  {value: 10, label: 'Java'},
+  {value: 10, label: 'Ruby on Rails'},
 ]
 
 const Skills = () => (
@@ -21,7 +24,7 @@ const Skills = () => (
     <Box pad="large">
       <Heading tag="h3">Skills</Heading>
         <Columns
-          maxCount={10}
+          maxCount={3}
           direction='row'
           masonry
           justify='center'>

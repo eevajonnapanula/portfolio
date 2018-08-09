@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Work from './work'
 import Education from './education'
 import Animate from 'grommet/components/Animate'
+import Section from 'grommet/components/Section'
 
 const Experience = () => (
   <Animate
@@ -10,13 +11,14 @@ const Experience = () => (
     keep={true}
     leave={{"animation": "fade", "duration": 0, "delay": 0}}
     visible="scroll">
-    <div
+    <Section
       id="experience"
       className="content-container"
+      pad="medium"
     >
       <Work />
       <Education />
-    </div>
+    </Section>
   </Animate>
 )
 

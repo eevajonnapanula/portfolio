@@ -95,6 +95,7 @@ export default class Places extends React.Component {
           <Legend
             series={[
               {"label": "Seinäjoki", "colorIndex": "graph-2"},
+              {"label": "Tampere", "colorIndex": "brand"},
               {"label": "Helsinki", "colorIndex": "graph-3"},
               {"label": "Houston", "colorIndex": "accent-2"},
               {"label": "St. Petersburg", "colorIndex": "graph-1"}]}
