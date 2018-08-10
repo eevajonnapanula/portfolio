@@ -6,7 +6,8 @@ import Anchor from 'grommet/components/Anchor'
 import Animate from 'grommet/components/Animate'
 import SocialLinkedinIcon from 'grommet/components/icons/base/SocialLinkedin'
 import SocialGithubIcon from 'grommet/components/icons/base/SocialGithub'
-import MailIcon from 'grommet/components/icons/base/Mail';
+import MailIcon from 'grommet/components/icons/base/Mail'
+import ContactButtons from './contact-buttons'
 
 
 const Contact = () => (
@@ -17,17 +18,7 @@ const Contact = () => (
     visible="scroll">
     <Section className="content-container" id="contact" pad="large" align="center" direction="column">
       <Heading tag="h3">Contact me</Heading>
-      <Box direction="row" justify="between" pad={{between: 'large'}}>
-        <Anchor href="https://github.com/eevajonnapanula">
-          <SocialGithubIcon colorIndex="brand" size="large" />
-        </Anchor>
-        <Anchor href="mailto:eevajonna.panula@gmail.com">
-          <MailIcon colorIndex="brand" size="large" />
-        </Anchor>
-        <Anchor href="https://www.linkedin.com/in/eevajonna/">
-          <SocialLinkedinIcon colorIndex="brand" size="large" />
-        </Anchor>
-      </Box>
+      <ContactButtons />
     </Section>
   </Animate>
 )
