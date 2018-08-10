@@ -22,8 +22,7 @@ const About = () => (
       <Columns
         size='medium'
         maxCount={2}
-        justify='center'
-        pad={{between: "large"}}>
+        justify='center'>
         <Box>
           <Heading tag="h3">Hello there</Heading>
           <Paragraph>
