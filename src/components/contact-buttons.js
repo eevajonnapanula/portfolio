@@ -20,7 +20,7 @@ const ContactButtons = ({ size }) => (
     <OutboundLink href="https://www.linkedin.com/in/eevajonna/">
       <SocialLinkedinIcon colorIndex="brand" size={size} />
     </OutboundLink>
-    <OutboundLink href="">
+    <OutboundLink href="https://www.instagram.com/eevajonna_/">
       <SocialInstagramIcon colorIndex="brand" size={size} />
     </OutboundLink>
   </Box>
