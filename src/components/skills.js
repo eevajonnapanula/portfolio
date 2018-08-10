@@ -1,5 +1,5 @@
 import React from 'react'
-import SkillComponent from './SkillComponent'
+import SkillComponent from './skill-component'
 import Heading from 'grommet/components/Heading'
 import Section from 'grommet/components/Section'
 import Box from 'grommet/components/Box'
