@@ -18,7 +18,7 @@ const Contact = () => (
     visible="scroll">
     <Section className="content-container" id="contact" pad="large" align="center" direction="column">
       <Heading tag="h3">Contact me</Heading>
-      <ContactButtons />
+      <ContactButtons size="large" />
     </Section>
   </Animate>
 )

@@ -9,19 +9,19 @@ import MailIcon from 'grommet/components/icons/base/Mail'
 import SocialInstagramIcon from 'grommet/components/icons/base/SocialInstagram'
 
 
-const ContactButtons = () => (
+const ContactButtons = ({ size }) => (
   <Box direction="row" justify="between" pad={{between: 'large'}}>
     <OutboundLink href="https://github.com/eevajonnapanula">
-      <SocialGithubIcon colorIndex="brand" size="large" />
+      <SocialGithubIcon colorIndex="brand" size={size} />
     </OutboundLink>
     <OutboundLink href="mailto:eevajonna.panula@gmail.com">
-      <MailIcon colorIndex="brand" size="large" />
+      <MailIcon colorIndex="brand" size={size} />
     </OutboundLink>
     <OutboundLink href="https://www.linkedin.com/in/eevajonna/">
-      <SocialLinkedinIcon colorIndex="brand" size="large" />
+      <SocialLinkedinIcon colorIndex="brand" size={size} />
     </OutboundLink>
     <OutboundLink href="">
-      <SocialInstagramIcon colorIndex="brand" size="large" />
+      <SocialInstagramIcon colorIndex="brand" size={size} />
     </OutboundLink>
   </Box>
 )
