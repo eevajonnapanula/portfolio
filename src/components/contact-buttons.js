@@ -2,7 +2,6 @@ import React from 'react'
 
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Box from 'grommet/components/Box'
-import Anchor from 'grommet/components/Anchor'
 import SocialLinkedinIcon from 'grommet/components/icons/base/SocialLinkedin'
 import SocialGithubIcon from 'grommet/components/icons/base/SocialGithub'
 import MailIcon from 'grommet/components/icons/base/Mail'

@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import HeaderComponent from '../components/header'
 import Notification from 'grommet/components/Notification'
+import FooterComponent from '../components/footer'
 // Styles and fonts
 import '../scss/main.scss'
 
@@ -26,6 +27,7 @@ const Layout = ({ children, data }) => (
       status='warning'
       style={{position: 'fixed', bottom: 0, width: '100%'}}
     />
+  <FooterComponent />
   </div>
 )
 

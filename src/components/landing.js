@@ -4,14 +4,21 @@ import Section from 'grommet/components/Section'
 import Box from 'grommet/components/Box'
 import Card from 'grommet/components/Card'
 import Anchor from 'grommet/components/Anchor'
+import CoffeeShop from '../assets/coffee-shop.svg'
 
 const Landing = () => (
-  <Section className="content-container" id="landing" pad="small">
+  <Section className="content-container" id="landing">
     <Hero>
       <Box direction='row'
-        justify='center'
-        align='center'>
-        <Box
+        justify='between'
+        align='center'
+        colorIndex="brand" >
+        <Box basis='1/2'
+          align='end'
+          pad='medium'>
+          <CoffeeShop style={{width: '20em'}} />
+        </Box>
+        <Box basis='1/2'
           align='start'
           pad='medium'>
           <Box colorIndex='brand'>

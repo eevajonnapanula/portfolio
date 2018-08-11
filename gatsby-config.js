@@ -33,5 +33,11 @@ module.exports = {
         head: true
       },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+          include: /assets/
+      }
+    }
   ],
 }
