@@ -4,6 +4,7 @@ import Heading from 'grommet/components/Heading'
 import Section from 'grommet/components/Section'
 import Columns from 'grommet/components/Columns'
 import Box from 'grommet/components/Box'
+import Anchor from 'grommet/components/Anchor'
 import Paragraph from 'grommet/components/Paragraph'
 
 const Education = () => (
@@ -16,13 +17,13 @@ const Education = () => (
         <Heading tag="h3">Education</Heading>
       </Box>
       <Box pad="small">
-        <Heading tag="h3">Haaga Helia University of Applied Sciences</Heading>
-        <Heading tag="h5">2021 Bachelor of Business Administration</Heading>
-        <Paragraph>Meditation viral farm-to-table portland. Air plant helvetica sriracha distillery iceland. Heirloom hexagon pabst ethical cloud bread retro, seitan squid meh celiac cornhole subway tile letterpress bespoke. Messenger bag occupy yr DIY gastropub.</Paragraph>
+        <Heading tag="h3">Haaga-Helia University of Applied Sciences</Heading>
+        <Heading tag="h5">Business Information Technology</Heading>
+        <Heading tag="h5">2018- </Heading>
+        <Paragraph>I am planning to take courses from <Anchor href="http://www.haaga-helia.fi/fi/opinto-opas/koulutusohjelmat/tietojenkasittelyn-koulutusohjelma-helsinki-monimuoto-182015-jalkeen-1?userLang=fi">two profiles</Anchor>: Digital services and Software Production.</Paragraph>
         <Heading tag="h3">University of Tampere</Heading>
-        <Heading tag="h5"> 2016 Master of Arts, Russian language and culture</Heading>
-        <Paragraph>Lorem ipsum dolor amet poutine pickled ennui 3 wolf moon echo park. Gluten-free hammock la croix, cronut pug migas succulents raclette. Crucifix whatever truffaut, microdosing coloring book brunch blue bottle woke knausgaard listicle edison bulb artisan YOLO chambray. Vape four dollar toast literally kale chips post-ironic, forage jean shorts. Organic enamel pin jianbing ugh, mustache farm-to-table tousled live-edge master cleanse meditation chambray la croix direct trade activated charcoal roof party.</Paragraph>
-
+        <Heading tag="h5">2010-2016 Master of Arts</Heading>
+        <Heading tag="h5">Russian language and culture</Heading>
       </Box>
     </Columns>
   </Section>
