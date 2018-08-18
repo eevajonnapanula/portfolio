@@ -4,6 +4,6 @@ url: "https://eevajonnapanula.github.io/portfolio/"
 description: "GatsbyJS site to show my portfolio. Design system used is Grommet."
 role: "Doing everything"
 filter: "hobby"
-tech: "GatsbyJS, Grommet"
+tech: "GatsbyJS, React, Grommet, GraphQL"
 repo: ""
 ---

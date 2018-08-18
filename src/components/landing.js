@@ -47,10 +47,10 @@ class Landing extends React.Component {
             pad='medium'>
             <Box colorIndex={this.state.color}>
               <Card heading='Moi!'
-                description='Here will be something!'
+                description='Are you looking for a developer, who loves coding and learning new things?'
                 link={<Anchor href='#about'
                 primary={true}
-                label='Go to next section' />} />
+                label='Read more' />} />
               <Button label='Or change color'
                   onClick={() => this.changeColor()}
                   primary={false}
