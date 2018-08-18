@@ -10,7 +10,7 @@ const skillsObject = [
   {value: 90, label: 'CSS'},
   {value: 70, label: 'Bootstrap'},
   {value: 60, label: 'React'},
-  {value: 50, label: 'Express'},
+  {value: 50, label: 'ExpressJS'},
   {value: 40, label: 'Angular'},
   {value: 40, label: 'Loopback'},
   {value: 40, label: 'Grommet'},

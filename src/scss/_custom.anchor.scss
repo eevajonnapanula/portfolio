@@ -10,7 +10,17 @@
   @include background-context-icon($brand-color, $brand-color);
 }
 
-.#{$grommet-namespace}anchor:hover,
-.#{$grommet-namespace}anchor--icon-label:hover {
+.#{$grommet-namespace}anchor:link,
+.#{$grommet-namespace}anchor--icon-label:link,
+a:link,
+.#{$grommet-namespace}anchor:visited,
+.#{$grommet-namespace}anchor--icon-label:visited,
+a:visited {
   color: $brand-color;
+}
+
+.#{$grommet-namespace}anchor:hover,
+.#{$grommet-namespace}anchor--icon-label:hover,
+a:hover {
+  color: nth($brand-neutral-colors, 2);
 }
