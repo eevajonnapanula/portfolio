@@ -25,8 +25,14 @@ const About = () => (
         justify='center'>
         <Box>
           <Heading tag="h3">Hello there</Heading>
-          <Paragraph>
+          <Paragraph margin="small">
             I am a (web) developer, and I gotta say, I'm really proud of it. In the future, I hope to learn also more about things like mobile development and IoT.
+          </Paragraph>
+          <Paragraph margin="small">
+            I am self-taught programmer. While learning skills in different programming languages, I have learnt a lot about how and where to get help if I get stuck. This helps with learning new skills, too. Also, I have Master's degree in Russian language and culture, so academic practices are familiar to me.
+          </Paragraph>
+          <Paragraph margin="small">
+          When I'm not programming, I spend time doing sports and crafts. I run and play Ultimate Frisbee. Knitting and embroidery are the types of crafts that I do. Wearable textiles/e-textiles is a concept I'm planning to go deeper into in the near future.
           </Paragraph>
         </Box>
         <Box direction="column" align="center" pad={{between: 'medium'}}>
