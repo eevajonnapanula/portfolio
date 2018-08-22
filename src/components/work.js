@@ -23,7 +23,8 @@ const Work = () => (
         <Heading tag="h3"><OutboundLink href="https://citydevlabs.fi/">W3 Group / City Dev Labs</OutboundLink></Heading>
         <Heading tag="h5">05/2017-04/2018</Heading>
         <Heading tag="h5">Web Developer</Heading>
-        <Paragraph>Meditation viral farm-to-table portland. Air plant Headinglvetica sriracha distillery iceland. Heirloom hexagon pabst ethical cloud bread retro, seitan squid meh celiac cornhole subway tile letterpress bespoke. Messenger bag occupy yr DIY gastropub.</Paragraph>
+        <Paragraph margin="small">In W3 Group / City Dev Labs I worked in small scrum teams of 3-6 people depending on the project. My role was either Full Stack or Front End Developer, and in many projects I was also the Internal Product Owner, communicating with customer's Product Owner.</Paragraph>
+        <Paragraph margin="small">Some of the technologies we used were React, Angular, Loobpack and some Python. More details about projects can be found in Projects-section.</Paragraph>
       </Box>
     </Columns>
   </Section>
