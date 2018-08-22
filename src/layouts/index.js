@@ -21,12 +21,6 @@ const Layout = ({ children, data }) => (
     <div>
       {children()}
     </div>
-    <Notification message='Just to let you know, this site is not ready yet.'
-      closer={true}
-      size='medium'
-      status='warning'
-      style={{position: 'fixed', bottom: 0, width: '100%'}}
-    />
   <FooterComponent />
   </div>
 )
