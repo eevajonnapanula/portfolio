@@ -19,7 +19,8 @@ const Work = () => (
         <Heading tag="h3"><OutboundLink href="https://kidescience.com">Kide Science</OutboundLink></Heading>
         <Heading tag="h5">05/2018-08/2018</Heading>
         <Heading tag="h5">Developer</Heading>
-        <Paragraph>Lorem ipsum dolor amet poutine pickled ennui 3 wolf moon ecHeading park. Gluten-free Headingmmock la croix, cronut pug migas succulents raclette. Crucifix wHeadingtever truffaut, microdosing coloring book bruncHeadingblue bottle woke knausgaard listicle edison bulb artisan YOLO cHeadingmbray. Vape four dollar toast literally kale cHeadingps post-ironic, forage jean sHeadingrts. Organic enamel pin jianbing ugHeading mustacHeading farm-to-table tousled live-edge master cleanse meditation cHeadingmbray la croix direct trade activated cHeadingrcoal roof party.</Paragraph>
+        <Paragraph margin="small">Kide Science is a startup company, founded in the end of 2017. I was the only developer in the team.</Paragraph>
+        <Paragraph margin="small">Technologies used were React, ExpressJS, MaterialUI and Heroku.</Paragraph>
         <Heading tag="h3"><OutboundLink href="https://citydevlabs.fi/">W3 Group / City Dev Labs</OutboundLink></Heading>
         <Heading tag="h5">05/2017-04/2018</Heading>
         <Heading tag="h5">Web Developer</Heading>
