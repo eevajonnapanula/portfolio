@@ -16,6 +16,9 @@ const Work = () => (
         <Heading tag="h3">Relevant work experience</Heading>
       </Box>
       <Box pad='small'>
+        <Heading tag="h3"><OutboundLink href="https://appgyver.com">AppGyver</OutboundLink></Heading>
+        <Heading tag="h5">09/2018-</Heading>
+        <Heading tag="h5">Programmer</Heading>
         <Heading tag="h3"><OutboundLink href="https://kidescience.com">Kide Science</OutboundLink></Heading>
         <Heading tag="h5">05/2018-08/2018</Heading>
         <Heading tag="h5">Developer</Heading>

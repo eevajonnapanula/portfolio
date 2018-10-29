@@ -5,10 +5,6 @@ import Columns from 'grommet/components/Columns'
 import Animate from 'grommet/components/Animate'
 import Button from 'grommet/components/Button'
 import Box from 'grommet/components/Box'
-import PersonalComputerIcon from 'grommet/components/icons/base/PersonalComputer'
-import CodeIcon from 'grommet/components/icons/base/Code'
-import FavoriteIcon from 'grommet/components/icons/base/Favorite'
-
 
 class Projects extends React.Component {
   state = {
@@ -25,7 +21,7 @@ class Projects extends React.Component {
       return this.state.allProjects
     }
     return this.state.allProjects.filter((project) => (
-      project.node.frontmatter.filter === this.state.filter
+      project.node.frontmatter.tech.includes(this.state.filter)
     ));
   }
 
@@ -40,20 +36,29 @@ class Projects extends React.Component {
         <Section className="content-container" id="projects" pad="large">
           <Box direction="row" justify="center" pad={{between: 'small'}}>
             <Button
-              icon={<CodeIcon />}
               label='All'
               primary={this.state.filter === 'all'}
               onClick={() => this.setFilter('all')} />
             <Button
-              icon={<PersonalComputerIcon />}
-              label='Work'
-              primary={this.state.filter === 'work'}
-              onClick={() => this.setFilter('work')} />
+              label='React'
+              primary={this.state.filter === 'React'}
+              onClick={() => this.setFilter('React')} />
             <Button
-              icon={<FavoriteIcon />}
-              label='Hobby'
-              primary={this.state.filter === 'hobby'}
-              onClick={() => this.setFilter('hobby')} />
+              label='GatsbyJS'
+              primary={this.state.filter === 'GatsbyJS'}
+              onClick={() => this.setFilter('GatsbyJS')} />
+            <Button
+              label='GraphQL'
+              primary={this.state.filter === 'GraphQL'}
+              onClick={() => this.setFilter('GraphQL')} />
+            <Button
+              label='Grommet'
+              primary={this.state.filter === 'Grommet'}
+              onClick={() => this.setFilter('Grommet')} />
+            <Button
+              label='NodeJS'
+              primary={this.state.filter === 'NodeJS'}
+              onClick={() => this.setFilter('NodeJS')} />
           </Box>
           <Columns maxCount={4}
             masonry={false}
